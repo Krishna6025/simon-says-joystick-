@@ -1,17 +1,11 @@
 # simon-says-joystick-
-In this project using audrino i have created a simple simon says game with a joystick as input 
+In this project, using Arduino, I have created a simple Simon Says game with a joystick as the input.
 
-The coding part:
+The Coding Part:
+Using a random number generator function, I light up one of four LEDs at a time. The input is taken through the joystick, and then I compare if the input matches or not. A green light is shown if it is correct, and a red light for incorrect. To reset the game, we use the switch on the joystick.
 
-Using a random number generator funtion i light up 1 of 4 led at a time them input is taken through joystic and then i compare if the input is 
-matching or not and give a green light if it is coorect or red for incorrect.To reset the game we use the switch in the joystick.
-
-The hardware:
-
-A standard Arduino Uno(ATmega328P) is used and knock off PS2 joystick are connected then for output 4 leds to represent the side at which the joystick has to point 
-and 2 other leds one for correct input and other for incorrect.
-i will try to upload a pic of the connections.
+The Hardware:
+A standard Arduino Uno (ATmega328P) is used, along with a knock-off PS2 joystick. For output, four LEDs represent the direction in which the joystick has to point, and two other LEDs are used—one for correct input and another for incorrect input. I will try to upload a picture of the connections.
 
 Problems/Drawbacks:
-
-At the moment i can only take 1 input that too i have to be very fast,i don't know how to stop the loop till i give the input.
+At the moment, I can only take one input, and I have to be very fast. I don't know how to stop the loop until I give the input.
